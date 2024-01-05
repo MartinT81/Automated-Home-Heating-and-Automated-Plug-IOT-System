@@ -36,7 +36,7 @@ try:
             # Trigger IFTTT event to boost heating
             trigger_ifttt_event()
             break
-        # Pause for a 5 seconds
+        # Pause for a 10 seconds
          time.sleep(10)
 
 except KeyboardInterrupt:
